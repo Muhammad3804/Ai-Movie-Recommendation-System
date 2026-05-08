@@ -12,7 +12,7 @@ from explain_module import explain
 
 # ─── Page Config ─────────────────────────────────────────────────────────────
 st.set_page_config(
-    page_title="CineAI — Hybrid Movie Recommender",
+    page_title="MohoAI — Movie Recommender",
     page_icon="🎬",
     layout="wide",
 )
@@ -112,7 +112,7 @@ html, body, [class*="css"] { font-family: 'DM Sans', sans-serif; }
 # ─── Hero ─────────────────────────────────────────────────────────────────────
 st.markdown("""
 <div class="hero">
-  <p class="hero-title">🎬 CineAI</p>
+  <p class="hero-title">🎬 MohoAI</p>
   <p class="hero-sub">Hybrid AI Movie Recommendation System &nbsp;·&nbsp; CSP · Search · K-Means · ANN</p>
 </div>
 """, unsafe_allow_html=True)
